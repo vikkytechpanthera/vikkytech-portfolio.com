@@ -1,5 +1,5 @@
 body {
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
@@ -77,6 +77,7 @@ main {
     text-align: center;
     background-color: #202f5b;
     color: aqua;
+    padding-bottom: 0px;
   
 }
 
@@ -102,7 +103,7 @@ p {
     text-align: center;
     padding-right: 0;
     margin-left: 0%;
-    margin-bottom: 0%;
+    margin-bottom: -10px;
 }
 
 .contact-button  {
@@ -134,25 +135,37 @@ opacity: 0.5;
 .who-we-are {
     background-image: url(img/body.jpg);
     background-size: cover;
+    background-color: #1e7acb;
     background-repeat: no-repeat;
     color: #fff;
     padding: 20px;
     height: 240px;
     vertical-align: top;
+    margin-top: 0px;
     
+}
+.dash {
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
 }
 
 .who {
     width: 10px;
     display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
 
     
 }
 
 .web-design {
-    opacity: 0.5;
-    font-size: 25px;
-    width: 700px;
+   
+    font-size: 20px;
+    font-weight: 500;
+    width: 800px;
     margin-left: 200px;
     margin-top: 10px;
     position: static;
@@ -168,6 +181,243 @@ opacity: 0.5;
     box-shadow: 0 4px 60px rgb(0, 0, 0), 0 4px 12px 0 rgb(0, 0, 0);
     height: 45px;
     
+}
+
+.box-container {
+    height: 500px;
+    display: flex;
+    padding: 50px;
+}
+
+.app-design-box {
+    width: 290px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: -100px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 15px #00000027;
+    padding: 40px 30px;
+}
+
+.web-design-box {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: -150px;
+    box-shadow: 2px 2px 15px #00000027;
+    padding: 40px 30px;
+}
+
+.seo-social-box {
+    width: 290px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: -100px;
+    box-shadow: 2px 2px 15px #00000027;
+    padding: 15px;
+    padding: 40px 30px;
+}
+
+.box-content {
+    color: #084c87;
+}
+
+.why-us {
+    color: #202f5b;
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.dash-2 {
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    background-color: #c3baf0;
+    margin-bottom: 40px;
+}
+
+.why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph {
+    width: 600px;
+    height: 200px;
+    color: #060a0d91;
+    font-size: 19px;
+    text-align: center;
+    text-indent: 10px;
+    line-height: 35px;
+}
+
+.fade-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fade-1 {
+    margin-bottom: -160px;
+    z-index: 800;
+}
+
+.fade-2 {
+    margin-bottom: -160px;
+    z-index: 100;
+}
+
+.stats {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+.value-box {
+    margin-top: 30px;
+    margin-bottom: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-items: center;
+}
+
+.value-and-symbol {
+    display: flex;
+}
+
+.stats-value {
+    font-size: 80px;
+    font-weight: 450;
+    margin-left: px;
+    margin-right: px;
+    color: #202f5b;
+}
+.stats-symbol {
+    font-size: 70px;
+    font-weight: 500;
+   
+    color: #c4b9ff;
+}
+
+.dash-3 {
+    height: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #c3baf0;
+    
+    
+}
+
+.stats-info {
+    height: 5px;
+    width: 1fr 1fr 1fr 1fr;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.525);
+    
+    text-wrap: nowrap;
+}
+
+.team-section {
+    height: 500px;
+    background-color: #012b64;
+    display: flex;
+    padding-top: 100px;
+}
+
+.team-img {
+    height: 330px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 15px #0000009b;
+}
+
+.who-team {
+    width: 10px;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    margin-left: 25px;
+    
+}
+
+.a-sales {
+    font-size: 17px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+.dash-team {
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    background-color: #c3baf0;
+    margin-bottom: 55px;
+    margin-left: -45px;
+}
+
+.contact-icon {
+    height: 5px;
+}
+
+.meet-our-team  {
+  
+    height: 45px;
+    width: 175px;
+    display: grid;
+    border-radius: 60px;
+    cursor: pointer;
+    border-style: solid;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: background-color 0.4s,
+     color 0.7s;
+    margin-top: 40px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 10px #00000053;
+
+    background-color: aqua;
+    color: rgba(16, 28, 94, 0.907);
+    border-color: rgba(16, 28, 94, 0.907);
+}
+   
+.meet-our-team:hover  {
+    color: aqua;
+    border-color: rgba(0, 255, 255, 0.85);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 10px #13111144;
+}
+
+.meet-our-team:active {
+opacity: 0.5;
+}
+
+.selection-grid {
+    display: flex;
+    width: ifr;
+}
+
+.selection {
+    width: 271px;
+    height: 100px;
+    background-color: rgb(166, 175, 234);
 }
 
 footer {
