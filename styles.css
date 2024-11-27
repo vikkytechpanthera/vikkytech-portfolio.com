@@ -1,6 +1,6 @@
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url(img/header.jpg);
+    background-color: #012b64;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -22,6 +22,8 @@ header {
     height: 50px;
 
 }
+
+
 
 .header-content {
     display: flex;
@@ -36,6 +38,12 @@ nav a {
     margin: 0 20px;
     font-weight: bold;
     margin-bottom: 50px;
+    transition: color 0.4s;
+    
+}
+
+a:hover {
+    color: #c4b9ff;
 }
 
 .dropdown {
@@ -75,6 +83,7 @@ main {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    background-image: url(img/bg-slider.jpg);
     background-color: #202f5b;
     color: aqua;
     padding-bottom: 0px;
@@ -117,8 +126,8 @@ p {
     border-style: solid;
     margin-bottom: 47px;
     font-size: medium;
-    transition: background-color 0.2s,
-     color 0.2s;
+    transition: background-color 0.4s,
+     color 0.4s, border-color 0.4s;
 }
    
 .contact-button:hover  {
@@ -187,6 +196,7 @@ opacity: 0.5;
     height: 500px;
     display: flex;
     padding: 50px;
+    background-color: #f9f8f8;
 }
 
 .app-design-box {
@@ -251,6 +261,7 @@ opacity: 0.5;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f9f8f8;
 }
 
 .paragraph {
@@ -418,6 +429,43 @@ opacity: 0.5;
     width: 271px;
     height: 100px;
     background-color: rgb(166, 175, 234);
+}
+
+.features-section {
+    background-image: url(img/bg5.jpg);
+    
+    background-size: cover;
+    height: 650px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.web-design-features {
+    height: 400px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.464);
+    margin-top: 50px;
+}
+
+.web-design-header {
+    width: 10px;
+    display: inline-block;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 800;
+    color: rgb(37, 26, 96);
+    margin-left: 25px;
+}
+
+.web-design-note {
+    font-size: 18px;
+    color: rgb(37, 26, 96);
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-right: 10px;
+    line-height: 30px;
 }
 
 footer {
