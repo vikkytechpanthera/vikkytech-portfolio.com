@@ -176,7 +176,7 @@ opacity: 0.5;
     font-weight: 500;
     width: 800px;
     margin-left: 200px;
-    margin-top: 10px;
+    margin-top: -10px;
     position: static;
     display: inline-block;
 }
